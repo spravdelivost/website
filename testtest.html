@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication System</title>
+    <link rel="stylesheet" href="styletest.css">
+</head>
+<body>
+    <div id="auth-container">
+        <div id="registration" class="auth-form">
+            <h2>Register</h2>
+            <input type="text" id="reg-username" placeholder="Username" required>
+            <input type="password" id="reg-password" placeholder="Password" required>
+            <button onclick="register()">Register</button>
+            <p>Already have an account? <a href="#" onclick="showLogin()">Login here</a></p>
+        </div>
+
+        <div id="login" class="auth-form" style="display: none;">
+            <h2>Login</h2>
+            <input type="text" id="login-username" placeholder="Username" required>
+            <input type="password" id="login-password" placeholder="Password" required>
+            <button onclick="login()">Login</button>
+            <p>Don't have an account? <a href="#" onclick="showRegistration()">Register here</a></p>
+        </div>
+
+        <div id="welcome" style="display: none;">
+            <h2>Welcome, <span id="username"></span>!</h2>
+            <button onclick="logout()">Logout</button>
+        </div>
+    </div>
+
+    <script src="registrationform.js"></script>
+</body>
+</html>

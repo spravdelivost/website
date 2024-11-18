@@ -1,0 +1,578 @@
+/* main page */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.trion-claas-page {
+    position: relative;
+    text-align: left;
+}
+
+.trion-claas-page .mainbody {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.trion-claas-page .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trion-claas-page .back-image {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.trion-claas-page header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 8%;
+    box-shadow: 0 5px 10px #000;
+}
+
+.trion-claas-page header .logo {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    transition: .5s;
+    width: 200px;
+}
+
+.trion-claas-page header .logo:hover {
+    transform: scale(1.2);
+}
+
+.trion-claas-page h1 {
+    font-size: 5em;
+    color: rgb(255, 0, 0);
+    margin: 30px;
+}
+
+.trion-claas-page nav {
+    margin: 10px 0;
+    margin-left: 460px;
+}
+.trion-claas-page nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 30px;
+}
+
+.trion-claas-page nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: dashed;
+    margin: 0 15px;
+    font-size: 1.5em;
+}
+
+.trion-claas-page nav a:hover {
+    text-decoration: underline;
+}
+.trion-claas-page .main-h{
+    position: absolute;
+    top: 24%;
+    left: 10%;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+}
+.trion-claas-page .main-p{
+    position: absolute;
+    top: 550px;
+    left: 30px;
+    color: #ffffff;
+    font-size: 60px;
+}
+
+.trion-claas-page h2 {
+    margin: 0;
+    font-size: 2em;
+    margin-left: 150px;
+}
+
+.trion-claas-page p {
+    font-size: 1.5em;
+    line-height: 1.5;
+}
+
+.trion-claas-page figcaption {
+    position: relative;
+    font-size: 2em;
+    line-height: 1.5;
+    bottom: 600px;
+    left: 480px;
+}
+
+.construction-img{
+    position: relative;
+    left: 50px;
+    margin-bottom: 0px;
+
+}
+.trion-claas-page p  {
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.trion-claas-page dl{
+    margin-left: 360px;
+    font-size: 28px;
+}
+
+.trion-claas-footer {
+    position: relative;
+    background-color: rgb(197, 197, 197);
+    padding: 100px;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    height: 300px;
+    margin-top: -150px;  
+}
+
+
+/* catalog */
+
+.catalog-body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.catalog-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 8%;
+    box-shadow: 0 5px 10px #000;
+}
+
+.catalog-header .catalog-logo {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    transition: .5s;
+    width: 200px;
+}
+
+.catalog-header .catalog-logo:hover {
+    transform: scale(1.2);
+}
+
+.catalog-nav {
+    margin: 10px 0;
+}
+
+.catalog-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 30px;
+}
+
+.catalog-nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: dashed;
+    margin: 0 15px;
+    font-size: 1.5em;
+}
+
+.catalog-nav a:hover {
+    text-decoration: underline;
+}
+
+.catalog-cont {
+    position: relative;
+    text-align: center;
+}
+
+.catalog-back-image {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.catalog-heading {
+    position: relative;
+    top: 10%;
+    left: 50%;
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+}
+
+.catalog-subheading {
+    position: relative;
+    margin-top: 0%;
+    left: 10%;
+    color: rgb(69, 69, 69);
+    font-size: 26px;
+}
+
+.catalog-paragraph {
+    position: relative;
+    top: 2%;
+    left: 10%;
+    color: rgb(75, 75, 75);
+    font-size: 16px;
+}
+
+/* cards */
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 100%;
+}
+
+.product-card-one {
+    background-color: #ebebeb;
+    align-items: center;
+    padding: 0;
+    width: 300px;
+    height: 500px;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+.product-card-two{
+    background-color: #ebebeb;
+    align-items: center;
+    padding: 0;
+    width: 300px;
+    height: 500px;
+    margin-left: 590px;
+    margin-top: -500px;
+}
+.product-card-three{
+    background-color: #ebebeb;
+    align-items: center;
+    padding: 0;
+    width: 300px;
+    height: 500px;
+    margin-left: 1100px;
+    margin-top: -500px;
+}
+
+.product-image {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+
+.product-image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.product-title {
+    font-size: 24px;
+    text-align: left;
+    padding-left: 10px;
+    margin: 10px;
+}
+
+.product-price {
+    font-size: 15px;
+    margin: 5;
+    text-align: left;
+    padding-left: 20px;
+}
+
+/* services*/
+
+.services-body .services-h{
+    position: absolute;
+    top: 29%;
+    left: 13%;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+}
+.services-body .services-p{
+    position: absolute;
+    top: 250px;
+    left: 30px;
+    color: #ffffff;
+    font-size: 60px;
+}
+.services-body .under-req .requirments{
+    background-color: #f4f2f2;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin: 0;
+    margin-top: -10px;
+    font-size: 45px;
+    padding-left: 11%;
+    padding-top: 4%;
+}
+.services-body .under-req .inf{
+    position: relative;
+    padding-left: 11%;
+    margin-top: -12%;
+    font-size: 28px;
+}
+.services-body .under-req .future-h{
+    position: relative;
+    margin-left: 11%;
+    margin-top: 3%;
+    font-size: 22px;
+}
+.services-body .under-req .future-p{
+    position: relative;
+    margin-left: 11%;
+    margin-top: 2%;
+    font-size: 20px;
+}
+
+/*services cards*/
+
+.services-card-one {
+    background-color: #ebebeb;
+    align-items: center;
+    padding: 0;
+    width: 600px;
+    height: 800px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.services-card-two{
+    background-color: #ebebeb;
+    align-items: center;
+    padding: 0;
+    width: 600px;
+    height: 800px;
+    margin-left: 800px;
+    margin-top: -800px;
+}
+.product-image1 img {
+    max-width: 100%;
+    width: 600px;
+    height: 500px;
+}
+.product-image2 img{
+    max-width: 100%;
+    width: 600px;
+    height: 500px;
+}
+.product-title{
+    font-size: 40px;
+}
+.product-price{
+    font-size: 20px;
+}
+
+
+/*digital solutions*/
+.trion-claas-page .digital-p{
+    position: absolute;
+    top: 510px;
+    left: 100px;
+    color: #ffffff;
+    font-size: 60px;
+}
+
+.services-body .dig .village{
+    background-color: #e5e5e5;
+    width: 100%;
+    height: 560px;
+    position: relative;
+    margin: 0;
+    margin-top: -10px;
+    font-size: 45px;
+    padding-left: 11%;
+    padding-top: 4%;
+}
+.services-body .dig .information{
+    position: relative;
+    padding-left: 11%;
+    margin-top: -22%;
+    font-size: 28px;
+}
+.services-body .pilot .pilot-tag{
+    height: 500px;
+    position: relative;
+    margin: 0;
+    margin-top: 50px;
+    font-size: 45px;
+    padding-left: 11%;
+    padding-top: 4%;
+}
+.services-body .pilot .pilot-inf{
+    position: relative;
+    padding-left: 11%;
+    margin-top: -19%;
+    font-size: 22px;
+}
+
+/* form */
+.formv{
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+input{
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.emailstr{
+    width: 1300px;
+}
+.namestr{
+    width: 600px;
+    margin-bottom: -60px;
+}
+.countrystr{
+    margin-left: 700px;
+    margin-top: -200px;
+    width: 600px;
+}
+.buttonform{
+    margin-top: 40px;
+    margin-left: 1000px;
+}
+.bttn{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 20px;
+    border: 2px solid;
+    border-color: #7b7b7b;
+    width: 200px;
+    
+}
+.bttn:hover {
+    background-color: #eaeaea;
+}
+
+
+/* digital cards */
+
+.digital-card-one {
+    background-color: #ebebeb;
+    align-items: center;
+    padding: 0;
+    width: 600px;
+    height: 800px;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+
+.digital-card-two{
+    background-color: #ebebeb;
+    align-items: center;
+    padding: 0;
+    width: 600px;
+    height: 800px;
+    margin-left: 800px;
+    margin-top: -800px;
+}
+.product-image-one img {
+    max-width: 100%;
+    width: 600px;
+    height: 500px;
+}
+.product-image-two img{
+    max-width: 100%;
+    width: 600px;
+    height: 500px;
+}
+.product-title-dig{
+    font-size: 25px;
+    margin: 20px;
+}
+.product-price-dig{
+    font-size: 20px;
+    margin: 20px;
+}
+
+.rating-container {
+    margin: 20px;
+    text-align: center; 
+}
+
+.submit-rating {
+    padding: 10px 20px;
+    background-color: #dfdfdf;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.submit-rating:hover {
+    background-color: #c9f3cb;
+}
+
+.details-button {
+    position: relative; 
+    left: 450px;
+    bottom: 180px;
+    background-color: #76b250; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
+.additional-info{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.details-button:hover {
+    background-color: #9fb685; 
+}
+
+.reduce-text-button{
+    margin-left: 180px;
+    margin-top: 20px;
+    bottom: 180px;
+    background-color: #76b250; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
+
+
+/*footer style for digital solutions,catalog and services*/
+
+.digital-footer {
+    position: relative; 
+    background-color: rgb(197, 197, 197);
+    width: 100%;
+    height: 250px;
+    margin-top: 10px;
+}
+.digital-footer .fut p{
+    text-align: center;
+    padding-top: 30px;
+}
+/*slider*/
+
